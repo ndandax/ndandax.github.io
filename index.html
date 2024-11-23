@@ -1,26 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="styles/background.css">
-    <title>Seba Ndandala</title>
-  </head>
-
-  <body>
-    <div class="background-video">
-  <video autoplay loop muted>
-    <source src="videos/future.mp4" type="video/mp4">
-  </video>
-</div>
-
-    <div class="intro">
-      "Following this inner urge offers the greatest thrills,
-      letting me accomplish things that others believe can not be done"
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Software Engineer Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <h1>Seba Ndandala</h1>
+      <p class="subtitle">Full-Stack Software Engineer</p>
+      <nav>
+        <ul class="nav-list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
     </div>
-    <div class="profile-pic">
-      <img src="path/to/profile-picture.jpg" alt="Profile Picture" class="profile-pic">
+  </header>
+
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>Hello! I'm John Doe, a passionate software engineer with expertise in developing robust web and mobile applications. I have experience working with modern technologies like React, Node.js, and Python.</p>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project-list">
+        <div class="project">
+          <h3>Portfolio Website</h3>
+          <p>A personal website to showcase my skills and projects.</p>
+        </div>
+        <div class="project">
+          <h3>E-commerce Platform</h3>
+          <p>A scalable platform for managing online stores.</p>
+        </div>
+        <div class="project">
+          <h3>Chat Application</h3>
+          <p>Real-time messaging application using WebSocket.</p>
+        </div>
       </div>
-  </body>
- </html>
+    </div>
+  </section>
+
+  <section id="services" class="section">
+    <div class="container">
+      <h2>Services</h2>
+      <ul class="service-list">
+        <li>Web Application Development</li>
+        <li>Mobile Application Development</li>
+        <li>API Integration</li>
+        <li>Cloud Services</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form action="#" method="post" class="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2024 Seba Ndandala. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
+
