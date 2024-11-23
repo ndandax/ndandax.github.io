@@ -116,3 +116,59 @@ body {
   text-align: center;
   padding: 1rem 0;
 }
+
+/* Responsive Design for Mobile Devices */
+@media (max-width: 768px) {
+  .header h1 {
+    font-size: 2rem;
+  }
+
+  .nav-list {
+    flex-direction: column;
+  }
+
+  .nav-list li {
+    margin: 10px 0;
+  }
+
+  .project, .service-list li {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .contact-form input, .contact-form textarea {
+    width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  .header h1 {
+    font-size: 1.8rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
+
+  .nav-list a {
+    font-size: 1rem;
+  }
+
+  .section h2 {
+    font-size: 1.5rem;
+  }
+
+  .project, .service-list li {
+    font-size: 0.9rem;
+    padding: 1rem;
+  }
+
+  .contact-form input, .contact-form textarea {
+    font-size: 0.9rem;
+  }
+
+  .contact-form button {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+  }
+}
