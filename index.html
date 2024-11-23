@@ -1,83 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Software Engineer Portfolio</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seba Ndandala - Software Engineer</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
 </head>
 <body>
-  <header class="header">
-    <div class="container">
-      <h1>Seba Ndandala</h1>
-      <p class="subtitle">Full-Stack Software Engineer</p>
-      <nav>
-        <ul class="nav-list">
-          <li><a href="#about">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <section id="about" class="section">
-    <div class="container">
-      <h2>About Me</h2>
-      <p>Hello! I'm Seba Ndandala, a passionate software engineer with expertise in developing robust web and mobile applications. I have experience working with modern technologies like React, Node.js, and Python.</p>
-    </div>
-  </section>
+    <main>
+        <section id="home">
+            <h1>Seba Ndandala</h1>
+            <h2>Software Engineer</h2>
+        </section>
 
-  <section id="projects" class="section">
-    <div class="container">
-      <h2>Projects</h2>
-      <div class="project-list">
-        <div class="project">
-          <h3>Portfolio Website</h3>
-          <p>A personal website to showcase my skills and projects.</p>
-        </div>
-        <div class="project">
-          <h3>E-commerce Platform</h3>
-          <p>A scalable platform for managing online stores.</p>
-        </div>
-        <div class="project">
-          <h3>Chat Application</h3>
-          <p>Real-time messaging application using WebSocket.</p>
-        </div>
-      </div>
-    </div>
-  </section>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I'm a passionate software engineer with expertise in developing robust and scalable applications. With a keen eye for detail and a love for clean code, I strive to create efficient solutions for complex problems.</p>
+        </section>
 
-  <section id="services" class="section">
-    <div class="container">
-      <h2>Services</h2>
-      <ul class="service-list">
-        <li>Web Application Development</li>
-        <li>Mobile Application Development</li>
-        <li>API Integration</li>
-        <li>Cloud Services</li>
-      </ul>
-    </div>
-  </section>
+        <section id="services">
+            <h2>Services</h2>
+            <ul>
+                <li>Web Development</li>
+                <li>Mobile App Development</li>
+                <li>Cloud Solutions</li>
+                <li>API Integration</li>
+                <li>Database Design</li>
+            </ul>
+        </section>
 
-  <section id="contact" class="section">
-    <div class="container">
-      <h2>Contact Me</h2>
-      <form action="#" method="post" class="contact-form">
-        <input type="text" name="name" placeholder="Your Name" required>
-        <input type="email" name="email" placeholder="Your Email" required>
-        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
-        <button type="submit">Send Message</button>
-      </form>
-    </div>
-  </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>
+                <i data-lucide="mail"></i>
+                <a href="mailto:sebandandala99@gmail.com">sebandandala99@gmail.com</a>
+            </p>
+            <p>
+                <i data-lucide="phone"></i>
+                <a href="tel:+255621312631">+255 621 312 631</a>
+            </p>
+        </section>
+    </main>
 
-  <footer class="footer">
-    <div class="container">
-      <p>&copy; 2024 Seba Ndandala. All rights reserved.</p>
-    </div>
-  </footer>
+    <footer>
+        <p>&copy; 2024 Seba Ndandala. All rights reserved.</p>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+    </script>
 </body>
 </html>
 
